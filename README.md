@@ -41,4 +41,62 @@ Simplified Process:
 
 This system ensures the integrity of transactions, preventing unauthorized modifications to users' balances, and enhancing security through homomorphic operations and zero-knowledge proofs.
 
+### Install
 
+To install `tenseal`, along with the other third-party libraries required for your project, you can use the following `pip` command:
+
+```sh
+pip install requests tenseal cryptography
+```
+
+List of the dependencies based on your imports:
+### Standard Library (No need to install)
+- `time`
+- `argparse`
+- `hashlib`
+- `hmac`
+- `json`
+- `os`
+- `logging`
+- `datetime`
+- `subprocess`
+- `base64`
+- `shutil`
+
+### Third-Party Libraries (Install using pip)
+- `requests`
+- `tenseal`
+- `cryptography`
+
+### Custom Module
+- `session` (Make sure this module is part of your project directory)
+
+### Full Installation Command
+```sh
+pip install requests tenseal cryptography
+```
+
+### Example for Import Statements
+Here’s how your import statements might look in the Python file:
+```python
+import time
+import argparse
+import hashlib
+import hmac
+import json
+import os
+import requests
+import logging
+from datetime import datetime
+import tenseal as ts
+from cryptography.hazmat.primitives import serialization, hashes
+from cryptography.hazmat.primitives.asymmetric import dh
+from cryptography.hazmat.primitives.kdf.hkdf import HKDF
+from cryptography.hazmat.backends import default_backend
+import subprocess
+import base64
+from session import initiate_session, get_session_data, update_session_data, display_session_data
+import shutil
+```
+
+Ensure that you have `pip` installed and configured correctly on your system to install the required third-party libraries.
