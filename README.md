@@ -118,6 +118,8 @@ python Receiver.py --transaction_amount 1 --password 'pass123' --participants YO
 ```
 Select the available session and voilà.
 
+### FIXE ME Sender Part.
+
 python Sender.py --transaction_amount 1 --password 'FIXME' --participants YOURNAME YOURFRIEND
 
 
