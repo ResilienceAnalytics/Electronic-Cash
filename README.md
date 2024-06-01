@@ -1,5 +1,7 @@
 Proof Of Concept with vulnerabilty
 
+"It's often said, 'Not your keys, not your coins,' but in a literal and formal sense, you never truly have your tokens or coins. They are pieces of the blockchain that will never leave the chain. Here, however, with 'Your keys, your cash,' it's your cash that you have right in front of you."
+
 At the moment, there is a critical vulnerability in the wallet generation. This is because the library produces a different hash for the same balance. I have already developed my own CKKS system (addition and subtraction in Go and Python, I need to conduct further tests).
 
 Explanation of the Digital Cash Management System Using Blockchain
