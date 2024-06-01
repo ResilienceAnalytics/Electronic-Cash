@@ -41,7 +41,7 @@ Simplified Process:
     For each new transaction, the system checks that the user's current hash (before the transaction) matches the one stored on the server (456).
     If the hash differs, the transaction is blocked to prevent fraud.
 
-This system ensures the integrity of transactions, preventing unauthorized modifications to users' balances, and enhancing security through homomorphic operations and zero-knowledge proofs.
+This system ensures the integrity of transactions, preventing unauthorized modifications to users' balances, and enhancing security through homomorphic operations and zero-knowledge proofs. And You really have your CASH, like a real wallet.
 
 ### Install
 
