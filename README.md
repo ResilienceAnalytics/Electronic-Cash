@@ -102,3 +102,16 @@ import shutil
 ```
 
 Ensure that you have `pip` installed and configured correctly on your system to install the required third-party libraries.
+
+
+## COMMAND 
+
+python create_user_wallet.py --node_id YOURNAME
+
+When your are ready to tx with admin:
+
+python Receiver.py --transaction_amount 1 --password 'pass123' --participants YOURNAME admin
+
+Select the available session and voilà.
+
+
