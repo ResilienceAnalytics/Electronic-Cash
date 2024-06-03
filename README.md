@@ -38,6 +38,7 @@ Ensure that you have `pip` installed and configured correctly on your system to 
 ## COMMAND 
 ```
 git clone https://github.com/ResilienceAnalytics/Electronic-Cash.git
+cd Electronic-Cash
 ```
 ```
 python create_user_wallet.py --node_id YOURNAME
@@ -46,8 +47,10 @@ python create_user_wallet.py --node_id YOURNAME
 When your are ready to tx with admin:
 ```
 python Receiver.py --transaction_amount 1 --password 'pass123' --participants YOURNAME admin
+
 ```
-Select the available session and voilà.
+Select (Copy Paster Session Id) the available session and voilà.
+
 
 For sending.
 ```
