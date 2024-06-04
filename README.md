@@ -29,7 +29,7 @@ List of the dependencies based on your imports:
 
 ### Full Installation Command
 ```sh
-pip install numpy dotenv requests tenseal cryptography
+pip install numpy ipfshttpclient dotenv requests tenseal cryptography
 ```
 
 Ensure that you have `pip` installed and configured correctly on your system to install the required third-party libraries.
