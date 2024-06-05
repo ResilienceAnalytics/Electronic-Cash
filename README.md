@@ -57,7 +57,7 @@ When your are ready to tx with admin:
 python Receiver.py --transaction_amount 1 --password 'pass123' --participants YOURNAME admin
 
 ```
-Select (Copy Paster Session Id) the available session and voilà.
+Select (Copy Paster Session Id, which look like this : 39f56962034e5d60acea8de2810db5bed9f883036bbe9e03f5d1f538702857d9) the available session and voilà.
 
 
 For sending.
