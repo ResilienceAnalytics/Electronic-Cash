@@ -1,6 +1,14 @@
 This system ensures the integrity of transactions, preventing unauthorized modifications to users' balances, and enhancing security through homomorphic operations and zero-knowledge proofs. And You really have your CASH, like a real wallet.
 
 ### Install
+```sh
+python3.9 -m venv myenv
+source myenv/bin/activate
+pip install --upgrade pip
+pip install python-dotenv numpy ipfshttpclient requests cryptography pybind11
+pip install tenseal
+python -c "import tenseal as ts; print(ts.__version__)"
+```
 
 To install `tenseal`, along with the other third-party libraries required for your project, you can use the following `pip` command:
 
