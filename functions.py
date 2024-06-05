@@ -153,7 +153,7 @@ def generate_keys(parameters, user_Sender):
         )
         private_key_filename = f"{user_Sender}-private_key.pem"
         public_key_filename = f"{user_Sender}-public_key.pem"
-        directory_path = f"/home/hal/Documents/HSM/secure/PublicKey/{user_Sender}"
+        directory_path = f"./secure/PublicKey/{user_Sender}"
         os.makedirs(directory_path, exist_ok=True)
         with open(os.path.join(directory_path, private_key_filename), 'wb') as f:
             f.write(pem_private_key)
